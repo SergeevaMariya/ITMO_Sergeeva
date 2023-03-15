@@ -21,6 +21,6 @@ class Car:
 
 
 
-haval = Car('2021', 'хэчбэк', 'белая')
+haval = Car(year='2021', type='хэчбэк', color='белая')
 haval.type_of_car('внедорожник')
 print(haval.starting())
